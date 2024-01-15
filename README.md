@@ -6,4 +6,4 @@ This is a **test repository** to help us *figure out*
   
   | What this is                  | What this isn't |
   | ----------------------------  | --------------- |
-  | A test of what we're learning | Everything GitHub can do  |
+  | A test of what we're learning | Everything GitHub can do|
