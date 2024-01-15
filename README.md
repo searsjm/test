@@ -1,6 +1,6 @@
 # Test Repository
 
-This is a **test repository** to help us *figure out* 
+This is a **test repository** to help us *figure out*  
   1. How to use GitHub
   1. How to integrate it with RStudio Projects
   
