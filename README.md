@@ -5,4 +5,4 @@ This is the test repository from 9/4/2025 in class showing how to use Github (De
 | Github | Practice |
 |-------| ----------|
 | What this is | practice |
-| What this is not | fun! (jk jk)|
+| What this is not | fun! (jk jk!)|
