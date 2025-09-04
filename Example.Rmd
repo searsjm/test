@@ -1,0 +1,18 @@
+---
+title: "Example File Read"
+author: "Me"
+date: "2025-09-04"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Read in the data dictionary:
+
+```{r}
+var_dict <- read.csv("Data/variable_dictionary.csv")
+```
+
+
