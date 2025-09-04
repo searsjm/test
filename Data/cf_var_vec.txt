@@ -1,0 +1,63 @@
+# Event Variables
+get_free, num_free, month, dayofweek, dayofmonth, week,
+
+
+# Household-level variables (not sums)
+region_ne, region_mw, region_s, region_w, nonmetro, rural,
+hhsize, resunitsize, numguests,
+hhsizechange, hhsizechild, hhsizemove, hhsizechangeoth,
+housing_own, housing_rent, housing_nopay, housing_sub,
+
+selfemployhh, selfemployfoodhh, jobchangeany,
+
+anyvehicle, caracess, vehiclenum
+
+inchhavg_r, pctpovguidehh_r, monthly_exp, largeexp,
+assets_bel2k, assets_atleast2k, fincon_comf, fincon_able,
+fincon_somediff, fincon_tough, fincon_over,
+billsontime_always, billsontime_usual, billsontime_some,
+billsontime_rare, billsontime_never, pay_issues,
+util_issues, eviction, paydayloans6mos, cashadv6mos,
+adltfsraw,
+foodsec_high, foodsec_marg, foodsec_low, foodsec_vlow,
+food_suff, food_insuff_some, food_insuff_often,
+food_worried, food_ranout, food_notbal, food_skipped,
+nskipped, food_less, food_hungry, food_lostweight, food_skipday,
+n_skipday, nmealshome, ndinnersouthh,
+anytobacco, anypregnant, anyillness, anydieting, anyfoodallergy, allergywheat, allergymilk,
+allergyfish, allergyegg, allergyshellfish, allergycorn, allergypeanut,
+allergyothnut, allergysoy,allergyoth,
+pr_diet_exc, pr_diet_goodvgood, pr_diet_fair, pr_diet_poor,
+hh_diet_exc, hh_diet_goodvgood, hh_diet_fair, hh_diet_poor,
+hh_eat_healthy, healthycost, healthytime, fruitsveg_more, use_nutfacts,
+grocerylist_always, grocerylist_never,
+usdafoods, wichh, mealdelivery, mealfacility,
+primstore_grocery, primstore_superstore, primstore_supermkt,
+primstore_club, primstore_dollar, primstore_conv, primstore_fm,
+primstore_other, primstoretraveltime,
+
+primstore_owncar, primstore_othcar, primstore_walk, primstore_bus,
+primstore_taxi, primstore_bike, primstore_other, primstore_drivesme,
+no_supermarket, shopspec, shopbig,
+
+# From Individual file
+pr_age, pr_under19, pr_adult, pr_senior, pr_female, pr_married, pr_race_white, pr_race_black, pr_race_amind, pr_race_asian, pr_race_other, pr_hisp,
+pr_empl_workat, pr_empl_worknotat, pr_empl_notwork, pr_retired, pr_empl_no_health, pr_wic,pr_bmi, pr_obese, pr_overwgt, pr_not_overwgt,
+pr_edu_nohs, pr_edu_hs, pr_edu_somecol, pr_edu_bach, pr_edu_colplus,
+
+
+
+
+
+n_kid = sum(kid, na.rm = T),
+n_under4 = sum(under4, na.rm = T),
+n_school_age = sum(school_age, na.rm = T),
+n_adult = sum(adult, na.rm = T),
+n_senior = sum(over65, na.rm = T),
+
+n_all_schoollunch = sum(schoollunch_all, na.rm = T),
+n_all_schoolbrkfst = sum(schoolbrkfst_all, na.rm = T),
+n_schoollunch_free = sum(schoolunch_free, na.rm = T),
+n_schoolbrkfst_free = sum(schoolbrkfst_free, na.rm = T),
+
+

@@ -1,0 +1,213 @@
+﻿variable,description,from_file
+startmon,Month of Initial Interview,
+daynum,Day of Survey Week,
+week,Week of Month,event
+month,Month of Year,event
+dayofweek,Day of Week,event
+dayofmonth,Day of Month,event
+days_since_snap,Days Since SNAP,
+dss_first3,First 3 Days Since SNAP,
+snap_receipt_day,SNAP Disbursement: Day of Month,
+snap_receipt_week,SNAP Disbursement: Week of Month,
+dailyexp_fah,Daily Expenditure on Food-at-Home ,event
+dailyexp_snap,Daily Expenditure on Food-at-Home out of SNAP Benefits ,event
+dailyexp_oop,Daily Out-of-Pocket Expenditure on Food-at-Home ,event
+get_free,Received Any Free Food,event
+num_free,Num. Free Food Acquisitions,event
+pr_female,Primary Respondent: Female,indiv
+pr_age,Age of Primary Respondent,indiv
+pr_under19,Primary Respondent: Under 19,indiv
+pr_adult,Primary Respondent: Adult,indiv
+pr_senior,Primary Respondent: Over 65,indiv
+spousehhmem,Partner Lives at Home,indiv
+pr_married,Primary Respondent: Married,indiv
+pr_race_white,Primary Respondent: White,indiv
+pr_race_black,Primary Respondent: Black,indiv
+pr_race_amind,Primary Respondent: American Indian,indiv
+pr_race_asian,Primary Respondent: Asian,indiv
+pr_race_other,Primary Respondent: Other Race,indiv
+pr_hisp,Primary Respondent: Hispanic,indiv
+pr_edu_nohs,Primary Respondent: < HS Edu.,indiv
+pr_edu_hs,Primary Respondent: HS Degree,indiv
+pr_edu_somecol,Primary Respondent: Some College,indiv
+pr_edu_bach,Primary Respondent: Bachelor's,indiv
+pr_edu_grad,Primary Respondent: Master's or Above,indiv
+pr_empl_workat,Primary Respondent: Working at Job,indiv
+pr_empl_worknotat,Primary Respondent: Working at Job,indiv
+pr_empl_looking,Primary Respondent: Looking for Work,indiv
+pr_empl_notwork,"Primary Respondent: With a Job, Not Working",indiv
+pr_empl_no_health,Primary Respondent: Not Working for Health Reasons,indiv
+pr_retired,Primary Respondent: Retired,indiv
+pr_commutetime,Primary Respondent: Commute Time,indiv
+pr_bmi,Primary Respondent BMI,indiv
+pr_obese,Primary Respondent: Obese,indiv
+pr_overwgt,Primary Respondent: Overweight,indiv
+pr_not_overwgt,Primary Respondent: Not Overweight,indiv
+pr_wic,Primary Respondent on WIC,indiv
+n_inschool,Num. In-School Children in HH,indiv
+n_kids,Num. Children in HH,indiv
+n_under4,Num. Children under 4 in HH,indiv
+n_under12,Num. Children under 12 in HH,indiv
+n_adults,Num. Adults in HH,indiv
+n_seniors,Num. Seniors in HH,indiv
+pct_school_lunch,Pct. Elig. Lunches Received at School,indiv
+pct_school_brkfst,Pct. Elig. Breakfasts Received at School,indiv
+n_school_lunch,Num. Elig. Lunches Received at School,indiv
+n_school_brkfst,Num. Elig. Breakfasts Received at School,indiv
+nonmetro,Non-Metro ,hh
+rural,Live in Rural Census Tract,hh
+region,Census Region,hh
+region_ne,Census Region: Northeast,hh
+region_mw,Census Region: Midwest,hh
+region_s,Census Region: South,hh
+region_w,Census Region: West,hh
+hhsize,Household Size,hh
+hhsizechange,Recent HH Size Change,hh
+hhsizechild,Child Recently Added to HH,hh
+hhsizemove,Relative Recently Moved In/Out of HH,hh
+hhsizechangeoth,Other Recent HH Size Change,hh
+inchhavg_r,Household Income,hh
+pctpovguidehh_r,Household Income (Pct. Poverty Guideline),hh
+selfemployhh,Any Household Member Self-Employed,hh
+selfemployfoodhh,Any Household Member Self-Employed in Food,hh
+jobchangeany,Recent Job Change in HH,hh
+housing_own,Own Current Housing,hh
+housing_pub,Live in Public Housing,hh
+housing_rent,Rent Current Housing,hh
+housing_nopay,Don't Pay for Housing,hh
+housing_sub,Live in Subsidized Housing,hh
+assets_bel2k,"HH Assets Below 2,000",hh
+assets_atleast2k,"HH Assets 2,000+",hh
+monthly_exp,Monthly Expenses,hh
+vehiclenum,Num. HH Vehicles,hh
+caraccess,Have Access to Car When Needed,hh
+snapnowadmin,SNAP Household,hh
+adltfsraw,Adult Food Security Score,hh
+nmealshome,Num. Times in Last Week Prepared Food for Dinner at Home,hh
+edu_highest,Highest Education (PR and Partner),
+foodsec_high,Food Security: High,hh
+foodsec_marg,Food Security: Marginal,hh
+foodsec_low,Food Security: Low,hh
+foodsec_vlow,Food Security: Very Low,hh
+foodsec_lowvlow,Food Security: Low/Very Low,hh
+food_suff,Food is Sufficient,hh
+food_insuff_some,Food Sometimes Insufficient,hh
+food_insuff_often,Food Often Insufficient,hh
+foodsufficient ,Food Sufficiency Index,hh
+food_worried,Worried Food Would Run Out,hh
+food_ranout,Food Ran Out,hh
+food_notbal,Couldn't Afford Balanced Diet,hh
+food_skipped,Adults Skipped/Cut Meals,hh
+nskipped,Num. Days Skipped A Meal in Last Month,hh
+food_less,Ate Less Than Should,hh
+food_hungry,Ever Hungry and Don't Eat,hh
+food_lostweight,Not Enough Food + Lost Weight ,hh
+food_skipday,Skip Eating for Full Day,hh
+n_skipday,Num. Days All Meals Skipped in Last Month,hh
+grocerylist_always,Always Use Grocery List,hh
+grocerylist_never,Never Use Grocery List,hh
+largeexp,Recent Unusually Large Expense,hh
+snaplastamt_r ,Last SNAP Amount,hh
+usdafoods,Receives USDA Foods,hh
+anypregnant,Pregnancy in HH,hh
+wichh ,WIC Participant in HH,hh
+tanf_hh,TANF Participant in HH,event
+mealdelivery,Community Meal Delivery Program Participant,hh
+mealfacility,Received Meals from Comm. Center,hh
+primstore_grocery,Primary Store: Grocery Store,hh
+primstore_superstore,Primary Store: Super Store,hh
+primstore_supermkt,Primary Store: Supermarket,hh
+primstore_club,Primary Store: Club,hh
+primstore_dollar,Primary Store: Dollar Store,hh
+primstore_conv,Primary Store: Convenience Store,hh
+primstore_fm,Primary Store: Farmer's Market,hh
+primstore_coop,Primary Store: Co-op,hh
+primstore_other,Primary Store: Other,hh
+primstoretraveltime ,Travel Time to Primary Store,hh
+primstoreprices ,Primary Store: Good Prices ,hh
+primstoremeat ,Primary Store: Good Meat ,hh
+primstorequality,Primary Store: Good Quality,hh
+primstorevariety ,Primary Store: Good Variety,hh
+primstorespecial ,Primary Store: Specialty Foods,hh
+primstoreclose ,Primary Store: Close,hh
+primstoreloyalty, Primary Store: Loyalty Program,hh
+primstore_trav_owncar ,Primary Store Travel: by Own Car,hh
+primstore_trav_othcar,Primary Store Travel: by Other's Car,hh
+primstore_trav_walk,Primary Store Travel: Walk,hh
+primstore_trav_bus,Primary Store Travel: Bus,hh
+primstore_trav_taxi,Primary Store Travel: Taxi,hh
+primstore_trav_bike,Primary Store Travel: Bike,hh
+primstore_trav_other,Primary Store Travel: Other,hh
+no_supermarket,No Feasible Supermarket,hh
+foodstorenum,Num. Food Stores Shopped At,hh
+foodpantry,Used a Food Bank or Pantry,hh
+pr_diet_exc,Primary Respondent Diet: Excellent,hh
+pr_diet_goodvgood,Primary Respondent Diet: Good/Very Good,hh
+pr_diet_fair,Primary Respondent Diet: Fair,hh
+pr_diet_poor,Primary Respondent Diet: Poor,hh
+hh_diet_exc,HH Diet: Excellent,hh
+hh_diet_goodvgood,HH Diet: Good/Very Good,hh
+hh_diet_fair,HH Diet: Fair,hh
+hh_diet_poor,HH Diet: Poor,hh
+healthycost,Costs Too Much to Eat Healthy,hh
+hh_eat_healthy,HH Eats Healthy,hh
+fruitsveg_more,Should Eat More Fruits/Veg.,hh
+use_nutfacts,Use Nutrition Facts Always/Most of Time,hh
+anyvegetarian,Any Vegetarian in HH,hh
+anyfoodallergy,Any Food Allergy in HH,hh
+allergywheat,Any Wheat Allergy in HH,hh
+allergyegg,Any Egg Allergy in HH,hh
+allergymilk,Any Milk Allergy in HH,hh
+allergyfish,Any Fish Allergy in HH,hh
+allergyshellfish,Any Shellfish Allergy in HH,hh
+allergycorn,Any Corn Allergy in HH,hh
+allergypeanut,Any Peanut Allergy in HH,hh
+allergyothnut,Any Nut Allergy in HH,hh
+allergysoy,Any Soy Allergy in HH,hh
+anytobacco,Any HH Member Uses Tobacco,hh
+anyillness,Recent Major Illness,hh
+fincondition,Financial Condition Index,hh
+fincon_comf,Finances: Comfortable and Secure,hh
+fincon_able,Finances: Able to Make Ends Meet,hh
+fincon_somediff,Finances: Some Difficulty Making Ends Meet,hh
+fincon_tough,Finances: Tough Making Ends Meet,hh
+fincon_over,Finances: In Over Your Head,hh
+billsontime_always,Bills: Always on Time,hh
+billsontime_usual,Bills: Usually on Time,hh
+billsontime_some,Bills: Sometimes on Time,hh
+billsontime_rare,Bills: Rarely on Time,hh
+billsontime_never,Bills: Never on Time,hh
+billsontimefreq,On-Time Bill Pay Frequency Index,hh
+pay_issues,Recent Bill Payment Issues,hh
+util_issues,Recent Utility Payment Issues,hh
+cashadv6mos,Recent Cash Advance,hh
+paydayloan6mos,Recent Payday Loan,hh
+nutritionsearch ,Search Internet for Nutrition Info in Last 2 Months,hh
+shopbig ,Shop at Big Box Store,hh
+shopspec ,Shop at Specialty Stores,hh
+shopconv,Shop at Convenience Store,hh
+shopdollar ,Shop at Dollar Store ,hh
+n_tobacco,Num. HH Members who use Tobacco,indiv
+n_health_exc ,Num. HH Members in Excellent Health,indiv
+n_health_vgood,Num. HH Members in Very Good Health,indiv
+n_health_good,Num. HH Members in Good Health,indiv
+n_health_fair,Num. HH Members in Fair Health,indiv
+n_health_poor,Num. HH Members in Poor Health,indiv
+n_overwgt ,Num. Overweight HH Members,indiv
+n_obese,Num. Obese HH Members,indiv
+n_free_lunch,Num. Kids Receiving Free School Lunch,indiv
+n_free_brkfst,Num. Kids Receiving Free School Breakfast,indiv
+n_school_lunch,Num. Weekday Lunches Received at School,indiv
+n_school_brkfst,Num. Weekday Breakfasts Received at School,indiv
+pct_school_lunch,Pct. Weekdays with School Lunch,indiv
+pct_school_brkfst,Pct. Weekdays with School Breakfast,indiv
+pct_free_lunch,Share Kids Receiving Free School Lunch,indiv
+pct_free_brkfst,Share Kids Receiving Free School Breakfast,indiv
+snap1,Num. SNAP Retailers in 1/4 mi,hh
+snap2,Num. SNAP Retailers in 1/2 mi,hh
+snap3,Num. SNAP Retailers in 1 mi,hh
+snap4,Num. SNAP Retailers in 2 mi,hh
+snap5,Num. SNAP Retailers in 5 mi,hh
+snap6,Num. SNAP Retailers in 10 mi,hh
+snap7,Num. SNAP Retailers in 15 mi,hh
+snap8,Num. SNAP Retailers in 30 mi,hh
